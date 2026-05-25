@@ -26,7 +26,7 @@ function Stats() {
         {stats.map((stat, index) => (
           <div
             key={index}
-            className="border border-gray-800 rounded-2xl p-6 hover:border-gray-600 hover:-translate-y-1 transition duration-300"
+            className="border border-gray-800 rounded-2xl p-6 hover:border-gray-600 hover:-translate-y-1 transition-all duration-300 hover:scale-105"
           >
             <h2 className="text-4xl font-bold mb-2">
               {stat.number}

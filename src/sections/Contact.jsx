@@ -26,7 +26,7 @@ function Contact() {
 
           <a
             href="mailto:yadneshkb1303@gmail.com"
-            className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:bg-gray-200 transition duration-300"
+            className="bg-white text-black px-8 py-4 rounded-2xl font-semibold hover:bg-gray-200 transition-all duration-300 hover:scale-105"
           >
             Send Email
           </a>
@@ -35,7 +35,7 @@ function Contact() {
             href="https://linkedin.com/in/yadnesh-bhanushali-554678265"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-gray-700 px-8 py-4 rounded-2xl hover:border-white hover:text-white transition duration-300"
+            className="border border-gray-700 px-8 py-4 rounded-2xl hover:border-white hover:text-white transition-all duration-300 hover:scale-105"
           >
             LinkedIn
           </a>
@@ -44,7 +44,7 @@ function Contact() {
             href="https://github.com/yadnesh13"
             target="_blank"
             rel="noopener noreferrer"
-            className="border border-gray-700 px-8 py-4 rounded-2xl hover:border-white hover:text-white transition duration-300"
+            className="border border-gray-700 px-8 py-4 rounded-2xl hover:border-white hover:text-white transition-all duration-300 hover:scale-105"
           >
             GitHub
           </a>

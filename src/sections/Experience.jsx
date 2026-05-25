@@ -68,7 +68,7 @@ function Experience() {
 
           {experiences.map((exp, index) => (
             <Reveal key={index}>
-              <div className="border border-gray-900 hover:shadow-[0_0_40px_rgba(255,255,255,0.05)] rounded-3xl p-8 hover:border-gray-700 hover:-translate-y-1 transition duration-300">
+              <div className="border border-gray-900 hover:shadow-[0_0_40px_rgba(255,255,255,0.05)] rounded-3xl p-8 hover:border-gray-700 hover:-translate-y-1 transition-all duration-300 hover:scale-105">
 
                 {/* Top */}
                 <div className="flex flex-col md:flex-row md:items-center md:justify-between mb-6">
@@ -112,7 +112,7 @@ function Experience() {
                   {exp.tech.map((tech, idx) => (
                     <span
                       key={idx}
-                      className="border border-gray-800 px-4 py-2 rounded-full text-sm text-gray-300 hover:border-white hover:text-white transition duration-300"
+                      className="border border-gray-800 px-4 py-2 rounded-full text-sm text-gray-300 hover:border-white hover:text-white transition-all duration-300 hover:scale-105"
                     >
                       {tech}
                     </span>
